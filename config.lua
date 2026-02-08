@@ -2,9 +2,9 @@ Config = {}
 -- ========================================
 -- CAD BACKEND CONFIGURATION
 -- ========================================
-Config.CADEndpoint = "https://cad.tnsrp.com/api/dispatch/location-update" -- Your CAD backend URL for location updates
-Config.CommunityID = "1200664516858495056" -- Your community ID
-Config.APIKey = "livemap-cad-key-2024" -- API key for livemap (set this in your CAD backend)
+Config.CADEndpoint = "https://cdecad.com/api/dispatch/location-update" -- Your CAD backend URL for location updates
+Config.CommunityID = "" -- Your community ID
+Config.APIKey = "" -- API key, get this from CDE CAD Support
 
 -- ========================================
 -- UPDATE SETTINGS
@@ -83,7 +83,6 @@ Config.CoordinateTransform = {
     ScaleX = 0.012758,
     ScaleY = 0.012626,
 }
--- Legacy bounds config (kept for compatibility)
 Config.MapBounds = {
     MinX = -4000,
     MaxX = 4500,
